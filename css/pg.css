@@ -1,0 +1,19 @@
+
+.logo {
+    width: 200px;
+}
+
+#nav {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.836) 0%, rgb(211, 180, 6)100%);
+    box-shadow: 2px #cdcdcd;
+}
+
+#imgBanner {
+    height: 450px;
+}
+
+#mainQuemSomos {
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
