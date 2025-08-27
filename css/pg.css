@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 .logo {
     width: 200px;
@@ -9,7 +10,7 @@
 }
 
 #imgBanner {
-    height: 450px;
+    height: 500px;
 }
 
 #mainQuemSomos {
@@ -18,7 +19,30 @@
     font-size: 12px;
 }
 
-#sectionCards{
-    margin-top: 100px;
-    margin: 40px;
+.main-title{
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.destaque-texto{
+    color: rgb(0, 140, 255);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.destaque{
+    color: #000;
+    font-size: 14px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.icons{
+    color: rgb(0, 47, 255);
+    font-size: 40px;
+    padding-bottom: 10px;
 }
