@@ -10,7 +10,7 @@
 }
 
 #imgBanner {
-    height: 500px;
+    height: 600px;
 }
 
 #mainQuemSomos {
@@ -45,4 +45,8 @@
     color: rgb(0, 47, 255);
     font-size: 40px;
     padding-bottom: 10px;
+}
+
+#contato{
+    margin-bottom: 20px;
 }
