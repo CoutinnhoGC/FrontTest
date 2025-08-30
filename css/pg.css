@@ -50,3 +50,14 @@
 #contato{
     margin-bottom: 20px;
 }
+
+footer{
+    margin-top: 40px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.836) 0%, rgb(211, 180, 6)100%);
+}
+
+.logo_footer{
+    height: 120px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}

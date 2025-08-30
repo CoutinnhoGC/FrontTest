@@ -223,8 +223,13 @@
                 </section>
 
                 <section id="contato">
-                    <div class="container-fluid col-md-6">
-                        <div class="row g-1">
+                    <div class="container-fluid col-md-6" >
+                        <form class="row g-1" action="https://formsubmit.co/carlos.garces@ba.estudante.senai.br" method="POST">
+                            <div class="col-mg-12">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="text" id="email" class="form-control" required>
+                            </div>
+
                             <div class="col-mg-12">
                                 <label for="cep" class="form-label">CEP</label>
                                 <input type="text" id="cep" class="form-control" maxlength="9" required>
@@ -251,11 +256,37 @@
                             </div>
 
                             <div class="col-mg-12 d-grid gap-2">
-                                <button type="submit" class="btn btn-warning ">Enviar</button>
+                                <button for="submit" class="btn btn-primary ">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-fluid">
+                        <div class="row align-self-center">
+                            <div class="col-sm-4 text-center align-self-center">
+                                <img src="_images/logo.png" class="logo_footer">
+                            </div>
+                            <div class="col-sm-4 text-center align-self-center">
+                                R. Cerri Sete SIUUU<br>
+                                CEP:89659-456<br>
+                                Portugual, Ilha da Madeira
+                            </div>
+                            <div class="col-sm-4 text-center align-self-center">
+                                <form class="row g-2">
+                                    <div class="col-auto">
+                                        <input type="email" class="form-control"
+                                        placeholder="Informe seu Email">
+                                    </div>
+                                    <div class="col-auto">
+                                        <button type="submit" class="btn btn-primary">Enviar</button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
-                </section>
+                </footer>
 
             </main>
 
