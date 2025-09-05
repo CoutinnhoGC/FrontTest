@@ -15,15 +15,16 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
             integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
            
     </head>
 
     <body>
 
         <nav class="navbar navbar-expand-lg fixed-top" id="nav">
-            <div class="container-fluid">
+            <div class="container-fluid d-flex flex-column align-items-center">
                 <a class="navbar-brand" href="#">
-                    <img src="_images/logo.png" class="logo">
+                    <img src="_images/Daco_832227.png" class="logo">
                 </a>
                 <button class="navbar-toggler" type="button"
                     data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -33,9 +34,9 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end"
                     id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav nav-underline">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page"
+                            <a class="nav-link " aria-current="page"
                                 href="#">Home</a>
                         </li>
                         <li class="nav-item">
@@ -53,6 +54,7 @@
         </nav>
 
         <main>
+
             <section id="sectionCarrosel">
                 <div id="carouselExampleControls"
                     class="carousel slide carousel-fade"
@@ -223,36 +225,47 @@
                 </section>
 
                 <section id="contato">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 class="main-title">Contatos</h3>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="container-fluid col-md-6" >
                         <form class="row g-1" action="https://formsubmit.co/carlos.garces@ba.estudante.senai.br" method="POST">
                             <div class="col-mg-12">
                                 <label for="email" class="form-label">Email</label>
-                                <input type="text" id="email" class="form-control" required>
+                                <input type="text" name="email" id="email" class="form-control" required>
+                                
                             </div>
 
                             <div class="col-mg-12">
                                 <label for="cep" class="form-label">CEP</label>
-                                <input type="text" id="cep" class="form-control" maxlength="9" required>
+                                <input type="text" name="cep" id="cep" class="form-control" maxlength="9" required
+                                onblur="pesquisacep(this.value);">
+                                
                             </div>
 
                             <div class="col-mg-12">
                                 <label for="rua" class="form-label">Rua</label>
-                                <input type="text" class="form-control" required disabled>
+                                <input type="text"  id="rua" class="form-control" required disabled>
                             </div>
 
                             <div class="col-mg-12">
                                 <label for="bairro" class="form-label">Bairro</label>
-                                <input type="text" class="form-control" required disabled>
+                                <input type="text" id="bairro" class="form-control" required disabled>
                             </div>
 
                             <div class="col-mg-12">
                                 <label for="cidade" class="form-label">Cidade</label>
-                                <input type="text" class="form-control" required disabled>
+                                <input type="text" id="cidade" class="form-control" required disabled>
                             </div>
 
                             <div class="col-mg-12">
                                 <label for="estado" class="form-label">Estado</label>
-                                <input type="text" class="form-control" required disabled>
+                                <input type="text" id="uf" class="form-control" required disabled>
                             </div>
 
                             <div class="col-mg-12 d-grid gap-2">
